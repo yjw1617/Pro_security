@@ -14,4 +14,4 @@ $(OBJS):%.o:%.c
 
 .PHONY:clean
 clean:
-	rm test ./OUT/*.o  *.o -rf
+	rm app ./OUT/*.o  *.o -rf
