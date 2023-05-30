@@ -11,7 +11,7 @@
 #include "pthread_led.h"
 void *pthread_led_handle(void* param){
     while(1){
-        // usleep(1);
+        sleep(1);
         // log_app("pthread led run");
         printf("pthread led run");
     }
