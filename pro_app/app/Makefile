@@ -3,7 +3,7 @@ CC=$(CROSS_COMPILE)gcc
 CFLAGS = -g -c
 LDFLAGS = -lpthread
 
-OBJS = main.o mes.o tool.o pthread_led.o
+OBJS = main.o mes.o tool.o pthread_led.o pthread_client_request.o data_global.o
 
 my_app: $(OBJS)
 	$(CC) -o $@ $(OBJS) $(LDFLAGS)

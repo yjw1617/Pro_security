@@ -2,12 +2,13 @@
  * @Description: 
  * @Version: 2.0
  * @Autor: Yjw
- * @Date: 2023-05-28 18:02:45
+ * @Date: 2023-06-03 22:53:58
  * @LastEditors: Yjw
- * @LastEditTime: 2023-06-03 22:50:54
+ * @LastEditTime: 2023-06-03 23:07:36
  */
 #ifndef MES_H
 #define MES_H
+#define MSG_TYPE_LED 1
 struct Msg_t
 {
 	long msg_type;
